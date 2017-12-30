@@ -22,3 +22,6 @@ input = en_chr_idx<br />
 embedding <- en_chr_idx<br />
 bi-LSTM <- embedding<br />
 output <- timedistributed_dense(hi_char_len, softmax) <- bi-LSTM<br />
+
+# traning/tesing
+please view NCT.py
